@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  min-height: 100vh;
+}
+
+::selection {
+  background: theme(colors.accent.light);
+  color: theme(colors.slate.950);
+}
